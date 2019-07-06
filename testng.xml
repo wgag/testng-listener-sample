@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="sample test suite" verbose="1">
+    <listeners>
+        <listener class-name="com.example.calc.test.util.CustomTestListener"/>
+    </listeners>
+    <test name="sample test">
+        <packages>
+            <package name="com.example.calc.test.*"/>
+        </packages>
+    </test>
+</suite>
